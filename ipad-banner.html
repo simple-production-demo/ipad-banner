@@ -1,10 +1,15 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-<dom-module id="simple-promotional">
+<dom-module id="ipad-banner">
   <template>
     <style>
-
+      :host {
+        max-width: 600px;
+        display: block;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
       .banner {
         align-content: flex-start;
         align-items: center;
@@ -40,7 +45,7 @@
       }
 
       p {
-        font-size: 1em;
+        font-size: .8em;
         font-weight: 300;
         line-height: 1.5em;
         margin: 0 0 1em;
@@ -126,7 +131,7 @@
 
     class SimplePromotional extends Polymer.Element {
       static get is() {
-        return 'simple-promotional';
+        return 'ipad-banner';
       }
 
       static get properties() {
