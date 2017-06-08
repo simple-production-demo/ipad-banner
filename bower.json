@@ -1,0 +1,19 @@
+{
+  "name": "simple-promotional",
+  "description": "A simple banner to promote products hooked with Firebase",
+  "main": "simple-promotional.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0-rc.2",
+    "paper-card": "PolymerElements/paper-card#^2.0.0",
+    "polymerfire": "firebase/polymerfire#^2.0.1",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.1"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
+    "web-component-tester": "^6.0.0-prerelease.5",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0-rc.5"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0-rc.2"
+  }
+}
